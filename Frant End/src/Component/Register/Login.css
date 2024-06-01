@@ -1,0 +1,17 @@
+/* <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+
+
+
+
+<script src="assets/bootstrap.js"></script>
+<script src="assets/script.js"></script> */
+.about{
+    background-color: #404040;
+}
+form label {
+    color: bisque;
+}
+.form-group {
+    padding: 12px;
+}

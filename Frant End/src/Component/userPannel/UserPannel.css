@@ -1,0 +1,84 @@
+/* HomePage.css */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.home-header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-header h1 {
+    text-align: center;
+    color: #444;
+}
+
+.home-header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.home-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.home-header nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.home-header nav ul li a:hover {
+    color: #d4af37;
+    /* Gold color for jewelry theme */
+}
+
+.home-main {
+    padding: 20px 0;
+}
+
+.featured-items {
+    text-align: center;
+}
+
+.featured-items h2 {
+    color: #d4af37;
+    /* Gold color for titles */
+    margin-bottom: 20px;
+}
+
+.about-us {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-us h2 {
+    color: #444;
+}
+
+.about-us p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.home-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+.home-footer p {
+    margin: 0;
+}

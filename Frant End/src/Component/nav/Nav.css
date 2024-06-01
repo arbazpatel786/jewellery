@@ -1,0 +1,90 @@
+
+  .navigation-wrap{
+    position:fixed;
+    width: 100%;
+    left:0;
+    background-color: #000;
+    z-index:1000;
+    -webkit-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out; 
+  }
+  .navigation-wrap .nav-item{
+    padding:0 0.3rem;
+    transition:all 200ms linear;
+  }
+  .navbar-toggler:focus{
+    outline:unset;
+    border:none;
+    box-shadow: none;
+  }
+  .navigation-wrap .nav-link{
+    padding-top:0.9375rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:var(--white-color);
+    letter-spacing:0.0625rem;
+  }
+  .navigation-wrap .nav-link:hover,
+  .navigation-wrap .nav-link.active{
+    color:var(--primary-color);
+  }
+   
+  /* Change navbar styling on scroll */
+  .navigation-wrap.scroll-on{
+    position:fixed;
+    background-color:var(--black-color);
+    top:0;
+    left:0;
+    width:100%;
+    box-shadow: 0 0.125rem 1.75rem 1 rgb(0,0,0,0.09);
+    transition: all .15s ease-in-out 0s;
+  }
+  .navigation-wrap.scroll-on .nav-link:hover,
+  .navigation-wrap.scroll-on .nav-link.active{
+    color:var(--primary-color);
+  }
+   
+  
+  /*
+  ==========================================
+     top-banner Design
+  ==========================================
+  */
+  @media (max-width: 991px) {
+  #home .carousel-caption{
+    top:12rem;
+  }
+  #home .carousel-caption p{
+    max-width: 36.25rem;
+    margin:1.0625rem auto;
+  }
+
+
+   /* navbar brand */
+   .navigation-wrap .navbar-brand img{
+    height:2.8125rem;
+}
+.navbar-toggler i{
+    color:var(--white-color);
+    line-height: 2;
+}
+.navigation-wrap{
+    text-align: right;
+    background-color:var(--black-color);
+}
+.navigation-wrap .nav-link{
+    line-height: 1.875rem;
+} 
+
+/* Banner Design */
+  #home{
+      padding:4.375rem 0 0;
+  } 
+
+/* top banner */
+#home .carousel-caption {
+    top:3.5rem;
+}
+ 
+  }

@@ -1,0 +1,35 @@
+
+.new-arrivals .banner-info{
+    bottom:30px;
+    margin:auto;
+    width:100%;
+    position:absolute;
+    z-index:9;
+    padding:0 15px;
+  }
+  .new-arrivals .card-banner:nth-child(2) h2,
+  .new-arrivals .card-banner:nth-child(2) p,
+  .new-arrivals .card-banner:nth-child(2) a{
+    color:var(--black-color);
+  }
+  .new-arrivals .card-banner:nth-child(2) a::before,
+  .new-arrivals .card-banner:nth-child(2) a::after{
+    background-color:var(--black-color);
+  }
+  
+  .new-arrivals .card-banner .card-thumb,
+  .products .item-product{
+    position:relative;
+    display:block;
+    overflow: hidden;
+  }
+  .new-arrivals .card-banner .card-thumb img,
+  .products .item-product img{
+    transition: all .5s ease-out 0s;
+  }
+  .new-arrivals .card-banner .card-thumb img:hover,
+  .products .item-product img:hover{
+    transform:scale(1.2);
+    opacity:0.6;
+  }
+  
